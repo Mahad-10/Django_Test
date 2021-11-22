@@ -132,6 +132,7 @@ USE_TZ = True
 
 
 ACCOUNT_AUTH_METHOD = 'username'
+
 AUTH_USER_SERIALIZER = 'test_app.serializers.UserSerializer'
 
 

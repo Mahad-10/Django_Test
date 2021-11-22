@@ -7,5 +7,9 @@ class User(dsl_models.BaseUser):
     password = models.CharField(max_length=255)
     first_name = models.CharField(max_length=255)
     date_of_birth = models.DateField(null=True)
+    email = models.EmailField(max_length=255)
+    last_name = models.CharField(max_length=255)
+    gender = models.CharField(max_length=255)
+    mobile = models.CharField(max_length=255)
 
 
