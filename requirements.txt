@@ -3,3 +3,4 @@ djangorestframework
 django-simple-login
 pillow
 django[argon2]
+python-dotenv
