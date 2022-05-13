@@ -19,4 +19,3 @@ class RegisterLoginViews(TestSetUp):
     def test_user_cannot_login_with_no_data(self):
         res = self.client.post(self.login_url)
         self.assertEqual(res.status_code, 400)
-
