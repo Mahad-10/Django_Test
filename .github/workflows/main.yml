@@ -10,6 +10,8 @@ on:
 
 jobs:
   build:
+    env:
+      django_test: dev
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
