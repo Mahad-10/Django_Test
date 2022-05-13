@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     env:
-      django_test: dev
+      django_test: prod
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
