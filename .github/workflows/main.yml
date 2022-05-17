@@ -11,10 +11,10 @@ on:
 jobs:
   build:
     env:
-      django_test: prod
-      DB_NAME: django_test
-      DB_USER: django_test_user
-      DB_PASSWORD: password
+      django_test: dev
+#      DB_NAME: django_test
+#      DB_USER: django_test_user
+#      DB_PASSWORD: password
 
     runs-on: ubuntu-latest
     strategy:
