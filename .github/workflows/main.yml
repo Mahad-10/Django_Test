@@ -16,8 +16,8 @@ jobs:
       postgres:
         image: postgres:latest
         env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
+          POSTGRES_USER: radorado
+          POSTGRES_PASSWORD: radorado
           POSTGRES_DB: github_actions
         ports:
           - 5432:5432
