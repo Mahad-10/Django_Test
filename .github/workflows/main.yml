@@ -40,8 +40,6 @@ jobs:
     - name: psycopg2 prerequisites
       run: |
         sudo apt-get install libpq-dev
-        sudo apt-get install python3-psycopg2
-
 #     - uses: harmon758/postgresql-action@v1
 #       with:
 #         postgresql version: '14'
