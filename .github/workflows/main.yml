@@ -12,6 +12,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      django_test: dev
     strategy:
       fail-fast: false
       matrix:
