@@ -44,8 +44,8 @@ jobs:
     - uses: harmon758/postgresql-action@v1
       with:
         postgresql version: '14'
-#    - name: Run migrations
-#      run: python manage.py migrate
+    - name: Run migrations
+      run: python manage.py migrate
 ##    - name: Test with pytest
 ##      run: |
 ##        pip install pytest
