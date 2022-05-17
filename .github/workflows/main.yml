@@ -42,9 +42,9 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: psycopg2 prerequisites
       run: sudo apt-get install libpq-dev
-   - uses: harmon758/postgresql-action@v1
-     with:
-       postgresql version: '14'
+     - uses: harmon758/postgresql-action@v1
+       with:
+         postgresql version: '14'
 #    - name: Run migrations
 #      run: python manage.py migrate
 #    - name: Test with pytest
